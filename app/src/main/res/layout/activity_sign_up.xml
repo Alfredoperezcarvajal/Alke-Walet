@@ -13,14 +13,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="30dp"
         android:fontFamily="@font/jua"
-        android:text="Registrarse y \nempezar a ransferir"
+        android:text="@string/registrarse_y_empezar_a_ransferir"
         android:textColor="@color/negro"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -46,7 +46,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:fontFamily="@font/jua"
-                android:text="Nombre"
+                android:text="@string/nombre"
                 android:textColor="@color/negro"
                 android:textSize="14sp" />
 
@@ -65,7 +65,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/jua"
-                    android:hint="Ingresa tu Nombre"
+                    android:hint="@string/ingresa_tu_nombre"
                     android:inputType="text"
                     android:textSize="14sp"
 

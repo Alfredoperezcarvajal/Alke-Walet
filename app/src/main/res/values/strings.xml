@@ -5,4 +5,8 @@
     <string name="addemail">Ingresa tu email</string>
     <string name="contracena">contraseña</string>
     <string name="addpass">Ingresa tu contraseña</string>
+    <string name="inicio">Inicio</string>
+    <string name="registrarse_y_empezar_a_ransferir">Registrarse y \nempezar a ransferir</string>
+    <string name="nombre">Nombre</string>
+    <string name="ingresa_tu_nombre">Ingresa tu Nombre</string>
 </resources>
