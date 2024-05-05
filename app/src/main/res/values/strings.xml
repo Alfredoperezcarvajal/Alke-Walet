@@ -9,4 +9,14 @@
     <string name="registrarse_y_empezar_a_ransferir">Registrarse y \nempezar a ransferir</string>
     <string name="nombre">Nombre</string>
     <string name="ingresa_tu_nombre">Ingresa tu Nombre</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_request_money">RequestMoneyActivity</string>
+    <string name="ingresar_dinero">Ingresar Dinero</string>
+    <string name="reem_khaled">Reem Khaled</string>
+    <string name="reem_1993_gmail_com">reem_1993@gmail.com</string>
+    <string name="cantidad_a_ingreesar">Cantidad a ingreesar</string>
+    <string name="notas_de_transferencia">Notas de transferencia</string>
+    <string name="_20_00">20.00</string>
+    <string name="agregar_notas_de_transferencia_opcional">Agregar notas de transferencia (opcional)</string>
 </resources>

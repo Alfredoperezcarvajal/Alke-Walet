@@ -132,7 +132,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/jua"
         android:layout_marginBottom="40dp"
-        android:text="TextView"
+        android:text="Crea una nueva cuenta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
