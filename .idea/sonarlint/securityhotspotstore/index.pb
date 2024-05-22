@@ -2017,3 +2017,9 @@ Q.idea/sonarlint/securityhotspotstore/5/0/5001cfa5e0b12733517e45100b61078f87640f
 Q.idea/sonarlint/securityhotspotstore/d/9/d96689ca38d32b6e47d8d3a7802d188b2c430b9f,d\e\de9a303ab25b8bb29ee166e9881d685c75924bd4
 Å
 Q.idea/sonarlint/securityhotspotstore/d/9/d946c9d24bf78e34b8d45ecdd76bf8872f51583d,0\6\06f9c604ed1dde32b1b8aae753abf97a08d287be
+x
+Happ/src/main/java/perez/alfredo/alkewalet2/adapter/TransactionAdapter.kt,8\8\88ba6d5c36c162ce3a9f7bafa613da2871cfacd2
+|
+Lapp/src/main/java/perez/alfredo/alkewalet2/adapter/ListTransactionAdapter.kt,0\3\03d3e21ea22e113755bdf7a18e9d99487b801f7c
+o
+?app/src/main/java/perez/alfredo/alkewalet2/model/Transaction.kt,0\3\036cedebe342403250da451fe7eff9e16779b71e
