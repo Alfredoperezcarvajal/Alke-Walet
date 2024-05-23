@@ -23,4 +23,18 @@
     <string name="yara_khalil_gmail_com">yara_khalil@gmail.com</string>
     <string name="yara_khalil">Yara Khalil</string>
     <string name="cantidad_a_transferir">Cantidad a transferir</string>
+    <string name="usertest">Nombre de Usuario</string>
+    <string name="usertestemail">Email de usuario</string>
+    <string name="moneyadd">Money Add</string>
+    <string name="addmoney">Agregar Dinero</string>
+    <string name="sendmoney">Enviar Dinero</string>
+    <string name="registertittle">Registrate y \\nempieza a transferir</string>
+    <string name="name">Nombre</string>
+    <string name="addname">Ingresa tu nombre</string>
+    <string name="lastname">Apellido</string>
+    <string name="addlastname">Ingresa tu apellido</string>
+    <string name="pass">Contraseña</string>
+    <string name="pass2">Reingresa tu contraseña</string>
+    <string name="addaccount">Crear cuenta</string>
+    <string name="backtologin">Ya tienes cuenta?</string>
 </resources>

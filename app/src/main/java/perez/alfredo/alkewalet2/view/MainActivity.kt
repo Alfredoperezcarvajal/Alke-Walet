@@ -2,40 +2,36 @@ package perez.alfredo.alkewalet2.view
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
+
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import perez.alfredo.alkewalet2.R
+
+import perez.alfredo.alkewalet2.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    // definimos la variable boton ir a login
-    var botonLogin : TextView? = null
+    //definimos Binding
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        // Le asignaremos id boton
-        botonLogin = findViewById(R.id.btn_ir_login)
+        //Declaramos e instanciamos las variables
+        binding.goToLogin.setOnClickListener { irAlLogin() }
+        binding.buttonAddAccount.setOnClickListener { irAlRegistro() }
+    }
 
-        // funcion del boton
-        botonLogin?.setOnClickListener {irAlLogin()  }
+    private fun irAlRegistro() {
+        val i = Intent (this, RegisterActivity::class.java)
+        startActivity(i)
     }
 
 
     // creamos la funcion ir al login
     private fun irAlLogin() {
-        val irLogin = Intent (this, LoginActivity::class.java)
-        startActivity(irLogin)
+        val i = Intent (this, LoginActivity::class.java)
+        startActivity(i)
     }
 
 }

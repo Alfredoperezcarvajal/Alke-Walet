@@ -51,6 +51,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtemaili"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/jua"
@@ -87,7 +88,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5">>
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/textInputEditText"
+            android:id="@+id/passs_txt_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/jua"
@@ -95,9 +96,6 @@
             android:inputType="textPassword"
             android:textSize="14sp" />
     </com.google.android.material.textfield.TextInputLayout>
-    <![CDATA[>
-
-    ]]>
 
     <TextView
         android:id="@+id/textView6"
@@ -114,7 +112,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textField3" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_login_l"
         style="@style/boton_celeste"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -122,12 +120,12 @@
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="20dp"
         android:text="Login"
-        app:layout_constraintBottom_toTopOf="@+id/titulosaludo"
+        app:layout_constraintBottom_toTopOf="@+id/btngotocreateacc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/titulosaludo"
+        android:id="@+id/btngotocreateacc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/jua"
